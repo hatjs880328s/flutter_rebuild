@@ -1,0 +1,71 @@
+name: rebuild_flutter
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: any
+  english_words: any
+  json_annotation: any
+  http: any
+  fish_redux: any
+  dio: any
+  sqflite: any
+  path: any
+  aspectd: any
+  fluttertoast: any
+  uuid: any
+  sharesdk_plugin: any
+  flutter_email_sender: any
+  mailer2: any
+  shared_preferences: any
+  zefyr: ^0.8.0
+  # 加载指示器
+  flutter_spinkit: any
+  # tuple 元组
+  tuple: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - images/cop_128.png
+    - images/login_weixin.png
+    - images/login_weibo.png
+    - images/login_qq.png
+    - images/personcenter_arrow_right.png
+    - images/personcenter_setting.png
+    - images/coperation_folder_invitepeople.png
+    - images/mainpage_refresh.png
+    - images/coperation_addnew_group.png
+    - images/personcenter_vip.png
+    - images/coperation_detail_edit.png
+    - images/coperation_detail_share.png
+    - images/app_back.png
+    - images/movearticle_unselectfolder.png
+    - images/movearticle_selectfolder.png
+
+    - images/main_tab_bookstore.png
+    - images/2.0x/main_tab_bookstore.png
+    - images/3.0x/main_tab_bookstore.png
+
+    - images/main_tab_group.png
+    - images/2.0x/main_tab_group.png
+    - images/3.0x/main_tab_group.png
+
+    - images/main_tab_main.png
+    - images/2.0x/main_tab_main.png
+    - images/3.0x/main_tab_main.png
+
+    - images/main_tab_person.png
+    - images/2.0x/main_tab_person.png
+    - images/3.0x/main_tab_person.png
+  
